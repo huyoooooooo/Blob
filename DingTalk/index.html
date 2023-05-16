@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    :root {
+      --clientHeight: auto;
+    }
+    .header, .footer {
+      font-size: 26px;
+      text-align: center;
+      line-height: 100vh;
+      height: 100vh;
+    }
+    .playground {
+      position: relative;
+      height: 200vh;
+      background-color: #040506;
+    }
+    .animation-container {
+      position: sticky;
+      top: 0;
+      bottom: 0;
+      height: 100vh;
+    }
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 40px;
+      width: 1120px;
+      height: 320px;
+      background-color: rgba(23,26,29,.9);
+      border-radius: 10px;
+    }
+    .list-item {
+      margin: 40px;
+      width: 80px;
+      height: 80px;
+      border-radius: 10px;
+    }
+  </style>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="header">HEADER</div>
+
+  <div class="playground">
+    <div class="animation-container">
+      <div class="list">
+        <div data-order="0" class="list-item"></div>
+        <div data-order="1" class="list-item"></div>
+        <div data-order="2" class="list-item"></div>
+        <div data-order="3" class="list-item"></div>
+        <div data-order="2" class="list-item"></div>
+        <div data-order="1" class="list-item"></div>
+        <div data-order="0" class="list-item"></div>
+        <div data-order="0" class="list-item"></div>
+        <div data-order="1" class="list-item"></div>
+        <div data-order="2" class="list-item"></div>
+        <div data-order="3" class="list-item"></div>
+        <div data-order="2" class="list-item"></div>
+        <div data-order="1" class="list-item"></div>
+        <div data-order="0" class="list-item"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">FOOTER</div>
+
+  <script type="module" src="./index.js"></script>
+</body>
+</html>

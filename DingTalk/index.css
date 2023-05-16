@@ -1,0 +1,42 @@
+.list-item:nth-child(1) {
+  background-color: #F88251;
+}
+.list-item:nth-child(2) {
+  background-color: #F8D703;
+}
+.list-item:nth-child(3) {
+  background-color: #00BFF3;
+}
+.list-item:nth-child(4) {
+  background-color: #BFDF42;
+}
+.list-item:nth-child(5) {
+  background-color: #A484CF;
+}
+.list-item:nth-child(6) {
+  background-color: #D46A1E;
+}
+.list-item:nth-child(7) {
+  background-color: #6198EB;
+}
+.list-item:nth-child(8) {
+  background-color: #DDB3F8;
+}
+.list-item:nth-child(9) {
+  background-color: #DDEC1F;
+}
+.list-item:nth-child(10) {
+  background-color: #FA7F82;
+}
+.list-item:nth-child(11) {
+  background-color: #B6E0E4;
+}
+.list-item:nth-child(12) {
+  background-color: #F17CBB;
+}
+.list-item:nth-child(13) {
+  background-color: #41E4D2;
+}
+.list-item:nth-child(14) {
+  background-color: #C56192;
+}
